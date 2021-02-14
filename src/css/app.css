@@ -1,0 +1,129 @@
+/*component*/
+
+.container-image-nav {
+    padding: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    height: 0px;
+}
+
+.container-image-nav a {
+    float: right;
+}
+
+#navbar {
+    opacity: 0;
+}
+
+/*hide application sebelum animasi selesai*/
+#container-app {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+/*end component*/
+
+.animated {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: "Courgette", cursive;
+}
+
+/* main */
+.container-nav-about {
+    transition: 1s;
+}
+
+.container-nav-about a {
+    color: white;
+}
+
+.navbar-about-bg {
+    width: 120px;
+    height: 50px;
+    background-color: #64c2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: right;
+    font-family: "Courgette", cursive;
+    margin-top: 10px;
+}
+
+/*container myapp*/
+.container-my-app {
+    padding: 0px 50px;
+    color: white;
+}
+
+.container-my-app .image-aplications * {
+    width: 500px;
+}
+
+/*list applications*/
+.row-aplications {
+    padding: 50px 0px;
+    margin: 150px 0px 100px 0px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.deksripsi-applications {
+    padding: 50px;
+}
+
+.deksripsi-applications h4 {
+    font-family: "Source Serif Pro", serif;
+}
+
+/* hp device */
+@media only screen and (max-width: 600px) {
+    #a1 {
+        margin-top: -20px;
+    }
+
+    .navbar-about-bg {
+        width: 80px;
+        height: 30px;
+        padding: 20px;
+    }
+
+    /*container myapp*/
+    .container-my-app {
+        padding: 0px 20px;
+    }
+
+    .row-aplications {
+        margin: 10px 0px 20px 0px;
+    }
+
+    .deksripsi-applications {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .container-my-app .row-aplications .deksripsi-applications {
+        margin-top: 0px;
+    }
+
+    .container-my-app .row-aplications .image-aplications {
+        margin-top: 0px;
+        height: 360px;
+        z-index: 1;
+    }
+
+    .deksripsi-applications h5 {
+        font-size: 15px;
+        overflow-y: scroll;
+        text-align: left;
+        padding: 5px;
+    }
+}
