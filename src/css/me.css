@@ -328,17 +328,20 @@
         cursor: pointer;
     }
 
+    .hoby-container {
+        padding-top: 50px;
+    }
+
     .hoby .row img {
-        height: 80px;
         margin-bottom: 50px;
     }
 
     .Seminar-container {
+        margin-top: -50px;
         padding: 0px;
     }
 
     .Seminar .row img {
-        height: 80px;
         margin-bottom: 90px;
     }
 }
