@@ -191,7 +191,7 @@ class app extends Component {
                                         <ReactPlayer
                                             url={data.image}
                                             playing={true}
-                                            autoPlay={true}
+                                            autoPlay={false}
                                             loop={true}
                                             controls={true}
                                             width="100%"
@@ -214,7 +214,7 @@ class app extends Component {
                                         <ReactPlayer
                                             url={data.image}
                                             playing={true}
-                                            autoPlay={true}
+                                            autoPlay={false}
                                             loop={true}
                                             controls={true}
                                             width="100%"
@@ -245,7 +245,7 @@ class app extends Component {
                                         <ReactPlayer
                                             url={data.image}
                                             playing={true}
-                                            autoPlay={true}
+                                            autoPlay={false}
                                             loop={true}
                                             controls={true}
                                             width="100%"
