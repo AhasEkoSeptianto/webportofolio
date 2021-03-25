@@ -190,7 +190,7 @@ class app extends Component {
                                     <div className="col-sm image-aplications">
                                         <ReactPlayer
                                             url={data.image}
-                                            playing={true}
+                                            playing={false}
                                             autoPlay={false}
                                             loop={true}
                                             controls={true}
@@ -213,7 +213,7 @@ class app extends Component {
                                     <div className="col-sm image-aplications">
                                         <ReactPlayer
                                             url={data.image}
-                                            playing={true}
+                                            playing={false}
                                             autoPlay={false}
                                             loop={true}
                                             controls={true}
@@ -244,7 +244,7 @@ class app extends Component {
                                     <div className="col-sm image-aplications">
                                         <ReactPlayer
                                             url={data.image}
-                                            playing={true}
+                                            playing={false}
                                             autoPlay={false}
                                             loop={true}
                                             controls={true}
