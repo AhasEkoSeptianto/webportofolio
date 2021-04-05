@@ -2,42 +2,36 @@
 
 .container-image-nav {
     padding: 10px;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
-    height: 0px;
 }
 
 .container-image-nav a {
     float: right;
 }
-
-#navbar {
-    opacity: 0;
-}
-
-/*hide application sebelum animasi selesai*/
-#container-app {
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-}
-
 /*end component*/
 
-.animated {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    color: white;
-    text-align: center;
-    font-family: "Courgette", cursive;
+/*is loading*/
+
+.Loading {
+    margin: 300px auto;
 }
+
+.text_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+}
+
+/*end is loading*/
 
 /* main */
 .container-nav-about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
     transition: 1s;
 }
 
@@ -121,7 +115,7 @@
     }
 
     .deksripsi-applications h5 {
-        font-size: 15px;
+        font-size: 17px;
         overflow-y: scroll;
         text-align: left;
         padding: 5px;

@@ -270,17 +270,6 @@
 
 /*end seminar*/
 
-/*copyright*/
-
-.copyright {
-    text-align: center;
-    padding: 10px;
-    background-color: #ababab;
-    color: #434343;
-}
-
-/*end copyright*/
-
 /*device phone*/
 
 @media only screen and (max-width: 600px) {

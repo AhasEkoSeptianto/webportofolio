@@ -321,9 +321,6 @@ class me extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="copyright">
-					&#169; copyright-by Ahas Eko Septianto
-				</div>
 			</div>
 		);
 	}
